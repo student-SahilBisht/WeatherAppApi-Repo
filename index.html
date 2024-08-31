@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App With JS</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="header">
+<div class="search-box">
+    <input class="input-box" type="text" placeholder="Enter Your Location">
+    <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+</div>
+<br>
+</div>
+<div class="location-not-found">
+    <h1>Sorry location not Found!!!</h1>
+    <img src="404.png"/>
+</div>
+<div class="weather-body">
+<img src="cloud.png" alt="" class="weather-image">
+<div class="weather-box">
+    <p class="tempreture">0<sup>°C</sup></p>
+    <p class="description">Light rain</p>
+</div>
+<div class="weather-details">
+    <div class="humidity">
+        <i class="fa-sharp fa-solid fa-droplet"></i>
+        <div class="text">
+            <span class="humiditys">45%</span>
+            <p>Humidity</p>
+        </div>
+    </div>
+
+    <div class="wind">
+        <i class="fa-solid fa-wind"></i>
+        <div class="text">
+            <span class="wind-speed">12 km/h</span>
+            <p>Wind Speed</p>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</body>
+</html>
